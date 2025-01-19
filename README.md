@@ -37,7 +37,7 @@ Follow these steps to get the project up and running locally:
 2. Install [MongoDB](https://www.mongodb.com/) on your local machine, or set up a cloud instance (e.g., MongoDB Atlas).
 3. Ensure you have [Git](https://git-scm.com/) installed to clone the repository.
 
-### 1. Clone the Repository
+1. Clone the Repository
 
 ```bash
 git clone <repository-url>
