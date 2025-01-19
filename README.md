@@ -1,37 +1,37 @@
 
 
 ```markdown
-# User Activity Tracking and Product Recommendation System
+ User Activity Tracking and Product Recommendation System
 
 This project is a backend service that tracks user activities on a website and provides product recommendations based on the tracked data. It also includes a popup functionality that displays recommended products with a discount offer when certain user actions are performed.
 
-## Features
+ Features
 
-### 1. **User Activity Tracking Pixel**
+ 1. **User Activity Tracking Pixel**
 - Create a pixel to track user activity on the website.
 - Store the tracked activity data in a backend MongoDB database.
 - Track actions such as page views, clicks, and scroll events.
 
-### 2. **Product Recommendation System**
+ 2. **Product Recommendation System**
 - Analyze user activity data to recommend relevant products.
 - Dynamically display product recommendations based on user behavior.
   
-### 3. **Popup with Discounts**
+ 3. **Popup with Discounts**
 - Display a popup with the recommended product when certain user actions occur (e.g., scrolling or spending time on the site).
 - The popup includes a configurable discount offer set by the website owner.
   
-## Technologies Used
+ Technologies Used
 - **Node.js**: Backend server for handling requests.
 - **Express.js**: Web framework for routing and middleware.
 - **MongoDB**: NoSQL database for storing user activity data and product details.
 - **Mongoose**: ODM for MongoDB, to interact with the database.
 - **CORS**: Middleware to allow cross-origin requests.
 
-## Setup Instructions
+Setup Instructions
 
 Follow these steps to get the project up and running locally:
 
-### Prerequisites
+ Prerequisites
 
 1. Install [Node.js](https://nodejs.org/) (version 14 or later).
 2. Install [MongoDB](https://www.mongodb.com/) on your local machine, or set up a cloud instance (e.g., MongoDB Atlas).
@@ -44,7 +44,7 @@ git clone <repository-url>
 cd <project-directory>
 ```
 
-### 2. Install Dependencies
+2. Install Dependencies
 
 Run the following command to install required packages:
 
@@ -52,7 +52,7 @@ Run the following command to install required packages:
 npm install
 ```
 
-### 3. Set Up MongoDB
+ 3. Set Up MongoDB
 
 Make sure you have MongoDB running locally or use a cloud database like MongoDB Atlas. Update the MongoDB URI in the `server.js` file:
 
