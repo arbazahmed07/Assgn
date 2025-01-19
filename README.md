@@ -120,11 +120,4 @@ fetch('/api/user/activity', {
 - **Advanced Analytics**: Implement algorithms to analyze user data and provide better product recommendations.
 - **Popup Customization**: Allow the website owner to configure when and how popups should appear.
 
-## License
 
-This project is open source and available under the [MIT License](LICENSE).
-```
-
----
-
-This `README.md` provides a comprehensive overview of the project, explaining the features, setup instructions, and API endpoints. You can adjust any part of it based on your specific implementation or any future features. Let me know if you'd like any changes!
